@@ -11,3 +11,7 @@ Paleidus programa vartotojas pasirenka kiek mokiniu duomenu jis ives. Tada praso
 ## Versija v0.2
 
 Versijoje v0.2 galima pasirinkti ne tik ivesti duomenis ranka, bet ir skaityti juos is failo. Rezultatu faile ("kursiokai.txt") duomenys yra tvarkingai surikiuoti.
+
+## Versija v0.3
+
+Versijoje v0.3 struktūra bei funkcijos perkeltos į atskirą header failą, o pagrindinėje v0.3.cpp faile viršuje šis failas įterptas. Taip pat minimaliai pavartotas "exception handling(try, catch)" metodai. 
