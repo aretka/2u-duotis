@@ -11,3 +11,15 @@ Paleidus programa vartotojas pasirenka kiek mokiniu duomenu jis ives. Tada praso
 ## Versija v0.2
 
 Versijoje v0.2 galima pasirinkti ne tik ivesti duomenis ranka, bet ir skaityti juos is failo. Rezultatu faile ("kursiokai.txt") duomenys yra tvarkingai surikiuoti.
+
+## Versija v0.3
+
+Versijoje v0.3 struktūra bei funkcijos perkeltos į atskirą header failą, o pagrindinėje v0.3.cpp faile viršuje šis failas įterptas. Taip pat minimaliai pavartotas "exception handling(try, catch)" metodai. 
+
+## Versija v0.4
+
+Versijoje v0.4 yra sukuriami penki atsitiktiniai studentų sąrašai iš 1000, 10000, 100000, 1000000, 10000000 įrašų. Vardai ir Pavardės kuriami šabloniniai. Studenų sąrašai surūšiuojami į dvi kategorijas: studentai, kurių galutinis balas < 5.0 ir Studentai, kurių galutinis balas >= 5.0. Surūšiuoti studentai išvedami į du naujus failus. Programos vykdymo metu išmatuojama programos sparta išskiriant kiek laiko užtruko kiekvienas iš žemiau išvardintų žingsnių:
+failų kūrimą;
+duomenų nuskaitymą iš failų;
+studentų rūšiąvimą į dvi grupes/kategorijas;
+surūšiuotų studentų išvedimą į du naujus failus.
