@@ -1,13 +1,6 @@
 # 2uzduotis
 
-## Versija v0.1
+## Versija v0.5
 
-Si versija yra pradine. Ji yra atlikta dviems budais: su vektoriais ir su masyvais. 
+ Versijoje v0.5 išmatuojamas nuskaitpmų duomenų laikas bei tų duomenų skirstymas į dvi dalis. Rezultatai rodo, kad vector bei deque panaudoja praktiškai tiek pat laiko perskaityti failus bei juos suskirstyti į dvi grupes, o naudojant list duomenų skaitymas užtrunka kiek mažiau, tačiau šių duomenų suskirstymas į dvi gruper trunka ilgiau. 
 
-## Programos v0.1 funkcionalumas 
-
-Paleidus programa vartotojas pasirenka kiek mokiniu duomenu jis ives. Tada prasoma ivesti pirmojo mokinio varda ir pavarde. Tada programa paklausia ar vartotojas nori, kad namu darbu rezultatus generuotu atsitiktinai ar ne. Tada atitinkamai varotojas eina prie tolesnio zingzio arba ivedineja namu darbu ivertinimus iki kol iveda -1. Tada iveda egzamino ivertinima arba jis sugeneruojamas atsitiktinai pagal pasirinkta varianta. Ir galiausiai programa paklausia vartotojo ar jis nori kad skaiciuotu namu darbu vidurki ar mediana. Tada galiausiai spausdinami rezultatai.
-
-## Versija v0.2
-
-Versijoje v0.2 galima pasirinkti ne tik ivesti duomenis ranka, bet ir skaityti juos is failo. Rezultatu faile ("kursiokai.txt") duomenys yra tvarkingai surikiuoti.
