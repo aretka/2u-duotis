@@ -6,6 +6,7 @@
 #include <algorithm>
 #include <string>
 #include <sys/time.h>
+#include <list>
 
 
 using std::string;
@@ -36,6 +37,27 @@ string IntToStr(int n)
     std::stringstream result;
     result << n;
     return result.str();
+}
+
+void vidurkioSkaiciavimas(deque <mokinys> &Stud)
+{
+    int suma;
+    for(int r=0; r<Stud.size(); r++)
+            {
+              suma=0;
+                for(int ii=0; ii<Stud[r].C.size(); ii++)
+                {
+                    suma+=Stud[r].C[ii];
+                }
+                if(suma == 0)
+                {
+                    Stud[r].galutinis = 0.6*Stud[r].egzaminas;
+                }else{
+                    cout << "";
+                    Stud[r].vidurkis = 1.0*suma/Stud[r].C.size();
+                    Stud[r].galutinis = (0.4*Stud[r].vidurkis)+(0.6*Stud[r].egzaminas);
+                }
+          }
 }
 
 deque<mokinys> skirstykStudentus(deque<mokinys>& studentai)
@@ -96,7 +118,6 @@ int main()
         double time_taken = double(end - start) / double(CLOCKS_PER_SEC);
         cout << sk <<" irasu skaitymo laikas: " <<time_taken <<" sec.\n";
 
-
         //Studentu galutiniu rezultatu rikiavimas
         sort(Stud.begin(), Stud.end());
 
@@ -107,8 +128,6 @@ int main()
         end = clock();
         time_taken = double(end - start) / double(CLOCKS_PER_SEC);
         cout << sk <<" irasu padalijimas i dvi grupes laikas: " <<time_taken <<" sec.\n";
-
-
 
         filename="vargsiukai" + IntToStr(sk) +".txt";
             outFile2.open(filename.c_str());
@@ -122,7 +141,6 @@ int main()
             outFile2 << std::fixed<<std::setprecision(2)<< vargseliai[t].galutinis <<"\n";
             t++;
         }
-
 
         filename="kietiakai" + IntToStr(sk) +".txt";
             outFile1.open(filename.c_str());
