@@ -23,3 +23,4 @@ failų kūrimą;!
 duomenų nuskaitymą iš failų;
 studentų rūšiąvimą į dvi grupes/kategorijas;
 surūšiuotų studentų išvedimą į du naujus failus.
+[alt 1000irasuphoto](1000irasu.jpg)
