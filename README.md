@@ -18,7 +18,7 @@ Versijoje v0.3 struktūra bei funkcijos perkeltos į atskirą header failą, o p
 
 ## Versija v0.4
 
-Versijoje v0.4 yra sukuriami penki atsitiktiniai studentų sąrašai iš [1000](1000irasu.jpg), [10000](10000irasu.jpg), [100000](100000irasu.jpg), [1000000](1000000irasu.jpg), 10000000 įrašų. Vardai ir Pavardės kuriami šabloniniai. Studenų sąrašai surūšiuojami į dvi kategorijas: studentai, kurių galutinis balas < 5.0 ir Studentai, kurių galutinis balas >= 5.0. Surūšiuoti studentai išvedami į du naujus failus. Programos vykdymo metu išmatuojama programos sparta išskiriant kiek laiko užtruko kiekvienas iš žemiau išvardintų žingsnių:
+Versijoje v0.4 yra sukuriami penki atsitiktiniai studentų sąrašai iš ![1000](1000irasu.jpg), [10000](10000irasu.jpg), [100000](100000irasu.jpg), [1000000](1000000irasu.jpg), 10000000 įrašų. Vardai ir Pavardės kuriami šabloniniai. Studenų sąrašai surūšiuojami į dvi kategorijas: studentai, kurių galutinis balas < 5.0 ir Studentai, kurių galutinis balas >= 5.0. Surūšiuoti studentai išvedami į du naujus failus. Programos vykdymo metu išmatuojama programos sparta išskiriant kiek laiko užtruko kiekvienas iš žemiau išvardintų žingsnių:
 failų kūrimą;!
 duomenų nuskaitymą iš failų;
 studentų rūšiąvimą į dvi grupes/kategorijas;
