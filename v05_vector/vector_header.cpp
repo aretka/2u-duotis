@@ -7,7 +7,7 @@ string IntToStr(int n)
     return result.str();
 }
 
-vector<mokinys> skirstykStudentus(vector<mokinys>& studentai)
+vector<mokinys> skirstykStudentusNetrinant(vector<mokinys>& studentai)
 {
  vector<mokinys> kieti, minksti;
  for (int i = 0; i != studentai.size(); i++)
@@ -19,6 +19,23 @@ vector<mokinys> skirstykStudentus(vector<mokinys>& studentai)
  }
 
  studentai = kieti; // vektoriui 'studentai' priskiriame kietus
+ return minksti; // grąžina vektorių iš studentų gavusių skolą
+}
+
+vector<mokinys> skirstykStudentusTrinant(vector<mokinys>& studentai)
+{
+ vector<mokinys> minksti;
+ vector<mokinys>::size_type i = 0;
+ while(i!=studentai.size())
+ {
+     if (studentai[i].galutinis < 5)
+	{
+ 	 minksti.push_back(studentai[i]);
+	 studentai.erase(studentai.begin() + i);
+	}
+     else
+     ++i;
+ }
  return minksti; // grąžina vektorių iš studentų gavusių skolą
 }
 

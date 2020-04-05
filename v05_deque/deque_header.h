@@ -32,7 +32,8 @@ float vidurkis, galutinis;
 };
 
 string IntToStr(int);
-deque<mokinys> skirstykStudentus(deque<mokinys>&);
+deque<mokinys> skirstykStudentusNetrinant(deque<mokinys>&);
+deque<mokinys> skirstykStudentusTrinant(deque<mokinys>&);
 void GalBalas(deque<mokinys>&);
 bool comparePagalVarda(const mokinys&, const mokinys&);
 bool comparePagalPavarde(const mokinys&, const mokinys&);

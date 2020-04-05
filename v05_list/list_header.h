@@ -37,6 +37,7 @@ float galutinis;
 };
 
 string IntToStr(int);
-list<mokinys> skirstykStudentus(list<mokinys>&);
+list<mokinys> skirstykStudentusNetrinant(list<mokinys>&);
+list<mokinys> skirstykStudentusTrinant(list<mokinys>&);
 
 #endif

@@ -25,7 +25,7 @@ deque<mokinys> skirstykStudentusNetrinant(deque<mokinys>& studentai)
 deque<mokinys> skirstykStudentusTrinant(deque<mokinys>& studentai)
 {
      deque<mokinys> kieti, minksti;
-     vector<Studentas>::size_type i = 0;
+     deque<mokinys>::size_type i = 0;
          while (i!=studentai.size())
          {
              if (studentai[i].galutinis < 5)

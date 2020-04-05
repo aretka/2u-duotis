@@ -5,7 +5,7 @@ int main()
     srand(time(NULL));
     ofstream outFile, outFile1, outFile2;
     ifstream inFile;
-    int Number_of_files=5, sk=1000;
+    int Number_of_files=1, sk=1000;
     string filename, eilute, vardas, pavarde, filename1 = "kietiakai.txt", filename2 = "vargsiukai.txt";
     list <mokinys> Stud, vargseliai;
     list <mokinys>::iterator it;
@@ -47,7 +47,7 @@ int main()
         //mokiniu padalinimas i dvi grupes, vargsiuku atskyrimas nuo kietiaku
 
         start = clock();
-        vargseliai = skirstykStudentus(Stud);
+        vargseliai = skirstykStudentusTrinant(Stud);
         end = clock();
         time_taken = double(end - start) / double(CLOCKS_PER_SEC);
         cout << sk <<" irasu padalijimas i dvi grupes laikas: " <<time_taken <<" sec.\n";

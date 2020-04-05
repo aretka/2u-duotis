@@ -32,7 +32,8 @@ float galutinis;
 };
 
 string IntToStr(int );
-vector<mokinys> skirstykStudentus(vector<mokinys>&);
+vector<mokinys> skirstykStudentusNetrinant(vector<mokinys>&);
+vector<mokinys> skirstykStudentusTrinant(vector<mokinys>&);
 void GalBalas(deque<mokinys>& );
 bool comparePagalVarda(const mokinys& , const mokinys& );
 bool comparePagalPavarde(const mokinys& , const mokinys& );
