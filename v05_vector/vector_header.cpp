@@ -31,11 +31,12 @@ vector<mokinys> skirstykStudentusTrinant(vector<mokinys>& studentai)
      if (studentai[i].galutinis < 5)
 	{
  	 minksti.push_back(studentai[i]);
-	 studentai.erase(studentai.begin() + i);
+         i++;
 	}
      else
-     ++i;
+        break;
  }
+ studentai.erase(studentai.begin(), studentai.begin() + i);
  return minksti; // grąžina vektorių iš studentų gavusių skolą
 }
 
