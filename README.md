@@ -10,7 +10,7 @@
 ![vector](v05_vector/vector_time_taken.jpg)
 ![deque](v05_deque/deque_time_taken.jpg)
 
-* Antrąją strategiją naudojant
+* Antrąją strategiją naudojant </br>
 ![list](v05_list/list_deleted_time_taken.png)
 ![vector](v05_vector/vector_deleted_time_taken.png)
 ![deque](v05_deque/deque_deleted_time_taken.png)</br>
