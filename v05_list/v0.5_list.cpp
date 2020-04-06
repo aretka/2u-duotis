@@ -5,7 +5,7 @@ int main()
     srand(time(NULL));
     ofstream outFile, outFile1, outFile2;
     ifstream inFile;
-    int Number_of_files=1, sk=1000;
+    int Number_of_files=5, sk=1000;
     string filename, eilute, vardas, pavarde, filename1 = "kietiakai.txt", filename2 = "vargsiukai.txt";
     list <mokinys> Stud, vargseliai;
     list <mokinys>::iterator it;

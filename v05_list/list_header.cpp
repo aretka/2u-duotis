@@ -45,8 +45,7 @@ list<mokinys> skirstykStudentusTrinant(list<mokinys>& studentai)
          duomenys.pavarde = it->pavarde;
          duomenys.galutinis = it->galutinis;
 	 minksti.push_back(duomenys);
-
-	 studentai->erase(it++);
+	 it = studentai.erase(it);
 	}     
      else
      ++it;
