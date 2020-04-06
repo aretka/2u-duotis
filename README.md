@@ -14,5 +14,8 @@
 ![list](v05_list/list_deleted_time_taken.png)
 ![vector](v05_vector/vector_deleted_time_taken.png)
 ![deque](v05_deque/deque_deleted_time_taken.png)</br>
-Rezultatai rodo, kad naudojant 1 strategiją deque ir vector duomenų tipa užtruko beveik tiek pat laiko, tačiau 
+Rezultatai: 
+* Naudojant <b>list</b> duomenų tipą duomenų skirstymas užtruko beveik dvigubai trumpiau.
+* Naudojant <b>deque</b> duoemnų tipą duomenų skirstymas sutrumpėjo maždaug 1.35 karto.
+* Naudojant <b>vector</b> duoemnų tipą duomenų skirstymo laikas išliko beveik toks pat.
 
