@@ -24,6 +24,6 @@ duomenų nuskaitymą iš failų;
 studentų rūšiąvimą į dvi grupes/kategorijas;
 surūšiuotų studentų išvedimą į du naujus failus.
 ![1000](1000irasu.jpg)
-[10000](10000irasu.jpg)
-[100000](100000irasu.jpg)
-[1000000](1000000irasu.jpg)
+![10000](10000irasu.jpg)
+![100000](100000irasu.jpg)
+![1000000](1000000irasu.jpg)
